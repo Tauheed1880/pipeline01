@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+opencv-python>=4.9
+ultralytics>=8.2
+numpy>=1.26
+
+# OCR: read the number-plate text (default engine is PaddleOCR).
+paddlepaddle>=3.0
+paddleocr>=3.0
+# Alternatives (optional, used automatically if installed):
+# easyocr>=1.7
+# pytesseract>=0.3.10
